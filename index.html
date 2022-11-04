@@ -37,36 +37,24 @@
       color: white; font-family: Verdana;
     }
     ul {
-      padding-top: 10px;
-      padding-left: 0px;
+      padding-left: 10px;
+    }
+    .nav {
+      top: 50px;
+      background-color: #eff0ff;
+      width: 200px;
+      height: 100vh;
+      padding-top: 20px;
+
     }
 
-    li {
+    .licustom {
+      height: 40px;
       list-style-type: none;
-    }
-    
-    .menu {
-      background-color: #f7f7f5;
-      float: left;
-      width: 120%;
-      height: 100
-      padding-top: 2px;
-      border-right: 1px solid;
-      height: 50px;
-    }
-
-    li a:hover:not(.active) {
-      background-color: #807878;
-      color: white;
-      text-decoration: none;
 
     }
-
-    .menu {
-      text-decoration: none;
+    a {
       color: black;
-      font-family: verdana;
-      display: block;padding: 14px 16px;
     }
 
     .breadcrumb-item+.breadcrumb-item::before {
@@ -93,12 +81,11 @@
     <div class="col-md-auto">
       <div class="nav">
         <ul>
-          <li><a class="menu" href=""> Menu</a></li>
-          <li><a class="menu" href="https://perpusthree.github.io/"> Dashboard</a></li>
-          <li><a class="menu" href="user.html">Data Pengguna</a></li>
-          <li><a class="menu" href="buku.html">Buku</a></li>
-          <li><a class="menu" href="pinjam.html">Pinjaman</a></li>
-          <li><a class="menu" href="pengembalian">Pengembalian</a></li>
+          <li class="licustom">Menu</li>
+          <li class="licustom"><a href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li class="licustom"><a href="buku.html"><i class="fa fa-book"></i> Buku</a></li>
+          <li class="licustom"><a href="pinjam.html"><i class="fa fa-upload"></i> Peminjaman</a></li>
+          <li class="licustom"><a href="kembali.html"><i class="fa fa-download"></i> Pengembalian</a></li>
         </ul>
       </div>
     </div>
